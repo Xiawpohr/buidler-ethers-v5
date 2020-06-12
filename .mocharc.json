@@ -1,0 +1,9 @@
+{
+  "extension": ["ts"],
+  "spec": "test/**/*.ts",
+  "require": [
+    "dotenv/config",
+    "ts-node/register",
+    "source-map-support/register"
+  ]
+}
