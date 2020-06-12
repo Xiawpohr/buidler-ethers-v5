@@ -1,6 +1,6 @@
 {
   "name": "@xiawpohr/buidler-ethers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Buidler plugin for ethers v5",
   "homepage": "https://github.com/Xiawpohr/buidler-ethers-v5",
   "repository": {
