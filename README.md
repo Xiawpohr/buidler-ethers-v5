@@ -1,9 +1,7 @@
-[![npm](https://img.shields.io/npm/v/@nomiclabs/buidler-ethers.svg)](https://www.npmjs.com/package/@nomiclabs/buidler-ethers)
-[![buidler](https://buidler.dev/buidler-plugin-badge.svg?1)](https://buidler.dev)
+# buidler-ethers-v5
+THis is forked from [buidler-ethers](https://buidler.dev/plugins/nomiclabs-buidler-ethers.html)
 
-# buidler-ethers
-
-[Buidler](http://getbuidler.com) plugin for integration with [ethers.js](https://github.com/ethers-io/ethers.js/).
+[Buidler](http://getbuidler.com) plugin for integration with [ethers.js v5](https://github.com/ethers-io/ethers.js/).
 
 ## What
 
@@ -12,13 +10,13 @@ This plugin brings to Buidler the Ethereum library `ethers.js`, which allows you
 ## Installation
 
 ```bash
-npm install --save-dev @nomiclabs/buidler-ethers ethers@^4.0.23
+npm install --save-dev @xiawpohr/buidler-ethers ethers@next
 ```
 
 And add the following statement to your `buidler.config.js`:
 
 ```js
-usePlugin("@nomiclabs/buidler-ethers");
+usePlugin("@xiawpohr/buidler-ethers");
 ```
 
 ## Tasks
@@ -72,7 +70,7 @@ There are no additional steps you need to take for this plugin to work.
 Install it and access ethers through the Buidler Runtime Environment anywhere you need it (tasks, scripts, tests, etc). For example, in your `buidler.config.js`:
 
 ```js
-usePlugin("@nomiclabs/buidler-ethers");
+usePlugin("@xiawpohr/buidler-ethers");
 
 // task action function receives the Buidler Runtime Environment as second argument
 task(
